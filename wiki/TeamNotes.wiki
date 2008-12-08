@@ -1,0 +1,21 @@
+#summary Notes by and for the project team members.
+#labels Team
+
+= Team Notes =
+
+== Link Issues and Change Revisions ==
+
+Please use the following comment styles to create links between project issues and code and data change revisisions. svn does not enforce any of this automatically.
+
+  * Please create an issue for one or more code & data commits. Do not commit changes without an associated issue.
+  * When you commit a change, please prefix it with "issue 87: ", where 87 is the actual issue number, as in {{{svn commit -m 'issue 87: blah describe your changes'}}}.
+    * Later when we look at changes in the web UI, the "issue 87" is automatically turned into a link to that issue.
+  * After committing a changeset, note the new revision number (for example, revision 125) and add a comment to the issue referring back to that revision. In the comment, use "r" followed immediately by the revision number. For example, add a comment like "Implemented in r125."
+    * This is a great time to also change the issue status to "Fixed" if you are done.
+    * Later when we look at issue 87 in the web UI, the "r125" is automatically turned into a link to that changeset.
+
+== Further Tips for Comments and Wiki Pages ==
+
+In issue comments, you can refer to another issue with "issue 87" which will automatically be turned into a link to that issue.
+
+You can apparently refer to a revision (changeset) in both issue comments and wiki pages using the "r" prefix, as in r125, and have it be turned into a link.
