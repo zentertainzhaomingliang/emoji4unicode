@@ -19,3 +19,12 @@ Please use the following comment styles to create links between project issues a
 In issue comments, you can refer to another issue with "issue 87" which will automatically be turned into a link to that issue.
 
 You can apparently refer to a revision (changeset) in both issue comments and wiki pages using the "r" prefix, as in r125, and have it be turned into a link.
+
+= Changes on trunk vs. in a branch =
+
+*Make "small" changes directly on the trunk.*
+Please send another project member an email to review each change and issue, and add them to the issue's cc list. The reviewer should mark a change with a positive score and change the issue status from Fixed to Verified.
+
+For changes that are "large", disruptive, controversial, or require several commits over more than a day, *please create a branch*, make one or more commits there, and get the whole branch reviewed by another member. Then merge the whole set back into the trunk. See the [http://svnbook.red-bean.com/en/1.5/svn.branchmerge.html SVN manual chapter about branching and merging].
+
+Use your judgment for what's "large" or disruptive, or ask the team.
