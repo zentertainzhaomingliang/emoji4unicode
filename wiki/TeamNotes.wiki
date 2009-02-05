@@ -37,8 +37,7 @@ Run tests and generate versioned data files:
 {{{
 cd src
 ./run_tests.sh
-./gen_font_data.py
-./gen_html.sh
+./gen_all.sh
 }}}
 
 Then check the diffs to make sure you are happy with the changes. For example: `svn diff --diff-cmd kdiff3`
